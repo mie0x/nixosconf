@@ -5,7 +5,15 @@
   programs.firefox.enable = true;
   programs.fish.enable = true;
   programs.dconf.enable = true;
-  programs.steam.enable = true;
+  programs.gamemode.enable = true;
+
+  #steam
+  programs.steam = {
+    enable = true; # Master switch, already covered in installation
+    remotePlay.openFirewall = true;  # Open ports in the firewall for Steam Remote Play
+    dedicatedServer.openFirewall = true; # Open ports for Source Dedicated Server hosting
+    # Other general flags if available can be set here.
+  };
   
   #record and stream
   programs.gpu-screen-recorder.enable = true;
@@ -55,7 +63,6 @@
     starship
     fastfetch
     btop
-    neovim
     zenity
 
     #network
