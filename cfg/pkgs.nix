@@ -58,6 +58,8 @@
     #gtk
     nwg-look
     adw-gtk3
+    xsettingsd
+    xrdb
 
     #shell
     kitty

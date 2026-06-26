@@ -12,7 +12,7 @@
       greeter-args = "";
       settings = {
         cursor = {
-          theme = "Adwaita";
+          theme = "whitesur-cursors";
           size = 24;
         };
         keyboard = {
