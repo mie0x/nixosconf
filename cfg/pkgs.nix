@@ -70,6 +70,7 @@
 
     #filemanager
     yazi
+    nautilus
 
     #music
     pear-desktop
