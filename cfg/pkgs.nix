@@ -49,6 +49,7 @@
     #basic
     wget
     git
+    glib
     glib-networking
     pywalfox-native
     zip
@@ -84,7 +85,5 @@
       withVencord = true;
     })
   ];
-
-
 
 }
