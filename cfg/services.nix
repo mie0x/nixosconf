@@ -9,13 +9,12 @@
     };
 
   # Enable the GNOME Desktop Environment     
-    displayManager = { 
-      gdm.enable = true;
-      sddm.enable = false;
-      defaultSession = "niri";
-    };
+  #  displayManager = { 
+  #   sddm.enable = false;
+  #   defaultSession = "niri";
+  #  };
 
-    desktopManager.gnome.enable = true;
+  #  desktopManager.gnome.enable = true;
   
   # Configure keymap in X11
     xserver.xkb = {

@@ -18,6 +18,7 @@
       ./cfg/pkgs.nix
       ./cfg/niri.nix
       ./cfg/noctalia-shell.nix
+      ./cfg/noctalia-greeter.nix
       ./cfg/spicetify.nix
       ./cfg/lanzaboote.nix
     ];
