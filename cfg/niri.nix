@@ -7,7 +7,7 @@
   # Or add to your packages
   environment.systemPackages = with pkgs; [
     xwayland-satellite
-    gsettings-desktop-schemas
+    #gsettings-desktop-schemas
 
     #theme
     whitesur-gtk-theme
