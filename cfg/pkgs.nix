@@ -54,6 +54,7 @@
     pywalfox-native
     zip
     unzip
+    mpvpaper
     
     #gtk
     nwg-look
