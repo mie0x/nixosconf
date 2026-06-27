@@ -13,7 +13,7 @@
       settings = {
         cursor = {
           theme = "whitesur-cursors";
-          size = 24;
+          size = "18";
         };
         keyboard = {
           layout = "us";

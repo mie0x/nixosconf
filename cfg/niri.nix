@@ -15,18 +15,15 @@
     whitesur-cursors
   ];
 
-  environment.sessionVariables.XDG_DATA_DIRS = [
-    "$XDG_DATA_DIRS"
-    "${pkgs.gsettings-desktop-schemas}/share/gsettings-schemas/${pkgs.gsettings-desktop-schemas.name}"
-  ];
+  
 
   programs.dconf.profiles.user.databases = [
     {
       settings = {
         "org/gnome/desktop/interface" = {
-          gtk-theme = "adw-gtk3-dark";
+          #gtk-theme = "adw-gtk3-dark";
           cursor-theme = "whitesur-cursors";
-          cursor-size = "16";
+          cursor-size = "18";
         };
       };
     }
