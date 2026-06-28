@@ -23,6 +23,25 @@
       ./cfg/lanzaboote.nix
     ];
 
+    #nix settings
+    nix.settings = {
+      # Limit to 2 concurrent build jobs
+      max-jobs = 2;
+
+      # Allocate 2 threads per job (Total: 4 threads out of your 8)
+      cores = 2;
+    };
+
+    systemd.services.nix-daemon.serviceConfig = {
+      # Capping RAM prevents large builds from causing your system to swap and freeze
+      MemoryMax = "10G";
+      MemoryHigh = "9G"; # Throttle the daemon slightly before hitting the absolute max
+  
+      # Give the build process lowest CPU priority so your desktop stays responsive
+      Nice = 19;
+      CPUSchedulingPolicy = "idle";
+    };
+
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
