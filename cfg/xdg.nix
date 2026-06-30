@@ -9,6 +9,7 @@
       xdg-desktop-portal-wlr
     ];
     xdgOpenUsePortal = true;
+    config.common.default = [ "wlr" "gnome" ];
   };
 
   # Required for the GNOME portal and file picking
@@ -18,5 +19,5 @@
     xdg-desktop-portal-gnome
     #nautilus # Optional: Recommended fallback file manager for the gnome portal
   ];
-  config.common.default = [ "wlr" "gnome" ];
+  
 }

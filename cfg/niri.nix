@@ -21,7 +21,7 @@
     {
       settings = {
         "org/gnome/desktop/interface" = {
-          gtk-theme = "adw-gtk3";
+          gtk-theme = "adw-gtk3-theme";
           cursor-theme = "whitesur-cursors";
           cursor-size = "18";
         };
