@@ -45,6 +45,8 @@
     neovim
     vscodium
     dconf-editor
+    mpv
+    ffmpeg
     
     #basic
     wget
