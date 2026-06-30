@@ -6,6 +6,7 @@
     extraPortals = with pkgs; [
       xdg-desktop-portal-gtk
       xdg-desktop-portal-gnome
+      xdg-desktop-portal-wlr
     ];
     xdgOpenUsePortal = true;
   };
@@ -17,4 +18,5 @@
     xdg-desktop-portal-gnome
     #nautilus # Optional: Recommended fallback file manager for the gnome portal
   ];
+  config.common.default = [ "wlr" "gnome" ];
 }
