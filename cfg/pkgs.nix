@@ -2,7 +2,7 @@
 
 { 
   #program enable default
-  programs.firefox.enable = true;
+  #programs.firefox.enable = true;
   programs.fish.enable = true;
   programs.dconf.enable = true;
   programs.gamemode.enable = true;
@@ -78,8 +78,8 @@
     yazi
     nautilus
 
-    #music
-    pear-desktop
+    #browser
+    firefox
     
     #game
     prismlauncher
