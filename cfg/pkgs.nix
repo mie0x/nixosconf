@@ -83,6 +83,7 @@
     
     #game
     prismlauncher
+    osu-lazer-bin    
 
     #com
     (discord.override {
