@@ -57,6 +57,7 @@
     zip
     unzip
     mpvpaper
+    pavucontrol
     
     #gtk
     nwg-look
