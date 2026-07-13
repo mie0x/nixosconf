@@ -58,6 +58,7 @@
     unzip
     mpvpaper
     pavucontrol
+    pear-desktop
     
     #gtk
     nwg-look
