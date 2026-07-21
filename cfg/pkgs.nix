@@ -81,7 +81,7 @@
     nautilus
 
     #browser
-    firefox
+    #firefox
     
     #game
     prismlauncher
