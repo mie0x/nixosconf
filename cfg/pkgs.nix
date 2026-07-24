@@ -82,7 +82,7 @@
 
     #browser
     firefox-bin
-    chromium
+    #chromium
     
     #game
     prismlauncher
