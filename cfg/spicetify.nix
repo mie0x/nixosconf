@@ -16,7 +16,7 @@ in
       shuffle
       
     ];
-    theme = spicePkgs.themes.catppuccino;
+    theme = spicePkgs.themes.catppuccin;
     colorScheme = "mocha";
   };
 }
