@@ -59,6 +59,9 @@
     mpvpaper
     pavucontrol
     pear-desktop
+
+    #java
+    jdk25
     
     #gtk
     nwg-look
