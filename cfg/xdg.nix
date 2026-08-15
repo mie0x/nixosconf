@@ -9,7 +9,7 @@
       xdg-desktop-portal-wlr
     ];
     xdgOpenUsePortal = true;
-    config.common.default = [ "wlr" "gtk3" "gnome" ];
+    config.common.default = [ "*" ];
   };
 
   # Required for the GNOME portal and file picking
