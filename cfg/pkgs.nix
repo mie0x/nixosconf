@@ -97,7 +97,7 @@
       withVencord = true;
     })
     
-    vesktop
+    #vesktop
   ];
 
 }
