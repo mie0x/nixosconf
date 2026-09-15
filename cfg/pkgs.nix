@@ -59,6 +59,7 @@
     mpvpaper
     pavucontrol
     pear-desktop
+    inputs.sonora.packages.${pkgs.system}.default    
 
     #java
     jdk25

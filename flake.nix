@@ -18,6 +18,12 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    #sonora
+    sonora = {
+       url = "github:sonorahq/sonora";
+       inputs.nixpkgs.follows = "nixpkgs";
+     };
+
     #spicetify
     spicetify-nix = {
       url = "github:Gerg-L/spicetify-nix";
@@ -33,7 +39,7 @@
 
   };
 
-  outputs = inputs@{ self, nixpkgs, spicetify-nix, lanzaboote, ... }:
+  outputs = inputs@{ self, nixpkgs, spicetify-nix, lanzaboote, sonora, ... }:
     let
       lib = nixpkgs.lib;
     in {
