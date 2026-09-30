@@ -6,6 +6,7 @@
   programs.fish.enable = true;
   programs.dconf.enable = true;
   programs.gamemode.enable = true;
+  programs.localsend.enable = true;
 
   #steam
   programs.steam = {
@@ -59,7 +60,7 @@
     mpvpaper
     pavucontrol
     pear-desktop
-    inputs.sonora.packages.${pkgs.system}.default    
+    inputs.sonora.packages.${pkgs.system}.default  
 
     #java
     jdk25
